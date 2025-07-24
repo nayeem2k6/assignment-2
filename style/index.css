@@ -150,3 +150,44 @@ height: 138px;
 left: 0;
 top: 2929.88px; 
 }
+.pic-bg{
+    background-image: url(../assets/deal-bloom.png);
+border: 2px solid blue;
+width: 366.22px;
+height: 206px;
+top: -5px;
+text-align: center;
+color: white;
+}
+.pic-2bg{
+    background-image: url(../assets/deal-ana.png);
+border: 2px solid blue;
+width: 402px;
+height: 268px;
+left: -17px;
+top: -71px;
+text-align: center;
+color: white;
+background-repeat: no-repeat;
+}
+.pic-bg4{
+    background-image: url(../assets/deal-zabo.png);
+    border: 2px solid blue;
+width: 753px;
+height: 423.13px;
+text-align: center;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+font-weight: 400px;
+}
+.pictres{
+display: flex;
+flex-direction: row;
+width: 1140px;
+height: 423.13px;
+left: 150px;
+top: 3187.88px;
+padding-left: 150px;
+}
