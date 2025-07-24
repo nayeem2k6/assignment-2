@@ -3,6 +3,7 @@ position: relative;
 width: 1440px;
 height: 4612px;
  background: rgb(245, 248, 255);
+ border: 2px solid blue;
 }
 /* nav style */
 nav{
@@ -13,6 +14,7 @@ nav{
     margin: 0px 200px;
     width: 1140px;
     height: 71px;
+    border: 2px solid blue;
 
 }
 nav ul li{
@@ -53,6 +55,7 @@ flex-direction: row;
 justify-content: center;
 align-items: flex-end;
 padding: 0px;
+border: 2px solid blue;
 
 }
 
@@ -62,14 +65,15 @@ padding: 0px;
     
 }
 .section-2{
-position: absolute;
+    position:absolute;
 width: 1140px;
-height: 1186.88px;
+height: auto;
 left: 150px;
 top: 802px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
+border: 2px solid blue;
 }
 .cards{
     display: grid;
@@ -103,5 +107,28 @@ align-items: center;
 gap: 10;
 padding: 26px 50px 26px 50px;
 border: none;
+
+}
+.section-3{
+position: absolute;
+width: 1140px;
+height: 597px;
+left: 150px;
+top: 2199px;
+border: 2px solid blue;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+.section-img{
+    display: flex;
+}
+.image-position{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+   
 
 }
