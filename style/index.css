@@ -126,9 +126,27 @@ padding: 0px;
     display: flex;
 }
 .image-position{
-    position:absolute;
+    position: absolute;
     width: 100px;
     height: 100px;
    
 
+}
+.section-4{
+border: 2px solid blue;
+position: absolute;
+width: 1440px;
+height: 138px;
+left: 0;
+top: 2929.88px;
+}
+.love-1{
+width: 540px;
+height: 521px;
+}
+.text-cd{
+width: 1440px;
+height: 138px;
+left: 0;
+top: 2929.88px; 
 }
