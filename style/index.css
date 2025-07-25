@@ -1,5 +1,4 @@
 .body-tag{
-position: relative;
 width: 1440px;
 height: 4612px;
  background: rgb(245, 248, 255);
@@ -44,6 +43,7 @@ color: #252432;
 .color-4{
     color:#000000;
 }
+/* section-1 style */
 .section-1{
 position: absolute;
 width: 1140px;
@@ -64,6 +64,7 @@ border: 2px solid blue;
     display: flex;
     
 }
+/* section-2-style */
 .section-2{
     position:absolute;
 width: 1140px;
@@ -109,6 +110,7 @@ padding: 26px 50px 26px 50px;
 border: none;
 
 }
+/* section-3-style */
 .section-3{
 position: absolute;
 width: 1140px;
@@ -132,6 +134,7 @@ padding: 0px;
    
 
 }
+/* section-4-style */
 .section-4{
 border: 2px solid blue;
 position: absolute;
@@ -152,35 +155,40 @@ top: 2929.88px;
 }
 .pic-bg{
     background-image: url(../assets/deal-bloom.png);
-border: 2px solid blue;
+border: none;
+border-radius: 10px;
 width: 366.22px;
 height: 206px;
 top: -5px;
 text-align: center;
-color: white;
+color:#FFFFFF;
 }
 .pic-2bg{
     background-image: url(../assets/deal-ana.png);
-border: 2px solid blue;
+border: none;
+border-radius: 20px;
 width: 402px;
 height: 268px;
 left: -17px;
 top: -71px;
 text-align: center;
-color: white;
+color:#FFFFFF;
 background-repeat: no-repeat;
+margin-top: 25px;
 }
 .pic-bg4{
     background-image: url(../assets/deal-zabo.png);
-    border: 2px solid blue;
+    border:none;
+    border-radius: 10px;
 width: 753px;
 height: 423.13px;
 text-align: center;
-color: white;
+color:#FFFFFF;
 justify-content: center;
 align-items: center;
-font-size: 50px;
+font-size: 30px;
 font-weight: 400px;
+border: ;
 }
 .pictres{
 display: flex;
@@ -191,3 +199,4 @@ left: 150px;
 top: 3187.88px;
 padding-left: 150px;
 }
+/* responsive-website in Mobile */
