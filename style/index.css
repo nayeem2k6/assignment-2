@@ -200,3 +200,7 @@ top: 3187.88px;
 padding-left: 150px;
 }
 /* responsive-website in Mobile */
+
+@media screen and (max-width:576px) {
+    
+}
